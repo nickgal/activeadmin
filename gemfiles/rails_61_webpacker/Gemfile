@@ -12,12 +12,12 @@ group :development, :test do
   gem "draper", "~> 4.0"
   gem "devise"
 
-  gem "rails", "~> 6.0.0"
-  gem "activerecord-jdbcsqlite3-adapter", "~> 60.0", platform: :jruby
+  gem "rails", "~> 6.1.a"
+  gem "activerecord-jdbcsqlite3-adapter", "~> 61.a", github: "jruby/activerecord-jdbc-adapter", platform: :jruby
 
   gem "sprockets-rails"
 
-  gem "turbolinks", "~> 5.2"
+  gem "webpacker", "~> 5.1"
 
   gem "formtastic", "~> 4.0.rc1"
 end
